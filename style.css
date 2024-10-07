@@ -1,6 +1,42 @@
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
 }
-span{
-    color: orange;
+.text-primary{
+    color: #FD6E0A;
+}
+nav>h3{
+    font-size: 45px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+li{
+    list-style: none;
+    
+    display: flex;
+    margin: 20px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    color: white;
+    
+}
+.banner-content{
+    display: flex;
+    justify-content: space-around;
 }
